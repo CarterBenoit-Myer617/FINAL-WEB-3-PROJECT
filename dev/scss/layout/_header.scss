@@ -1,3 +1,112 @@
 /* =============
     Header
 ============= */
+
+
+/* =============
+    Header
+============= */
+header {
+
+    padding-left: 5%;
+    padding-right: 5%;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+
+
+    .container {
+
+        display: grid;
+        margin: 1rem;
+        grid-template-columns: 50% auto;
+        grid-template-areas:
+            "logo burger"
+            "logo nav";
+
+        #logo-container {
+            display: flex;
+            align-items: center;
+            // margin-right: 16px;
+
+
+            grid-area: logo;
+
+            #logo {
+              
+                svg {
+                    
+                    margin: 0%;
+                }
+            }
+        }
+
+        #burger-container {            
+            display: flex;
+            grid-area: burger;
+            justify-content: flex-end;
+            align-items: center;
+            margin-right: 16px;
+
+            @include lg {
+                display: none !important;
+            }
+
+            // burger svg
+            #burger {
+                height: 5rem;
+                width: 5rem;
+            }
+        }
+
+        #nav-container {
+
+            display: none;
+
+            @include lg {
+                @media (min-width: #{$screen-lg-min}) {
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    margin-right: 16px;
+                }
+            }
+
+            
+            #navigation {
+                grid-area: nav;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                color: black;
+                // text-decoration: none;?????
+                
+
+                ul {
+
+                    li {
+                        display: inline;
+                        padding-right: 1rem;
+                        font-family: Antonio;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 2rem;
+                        
+                    
+                        #music {
+                            margin: 0;
+                        }
+
+                        #events {
+                            margin: 0;
+                        }
+
+                        #magazine {
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

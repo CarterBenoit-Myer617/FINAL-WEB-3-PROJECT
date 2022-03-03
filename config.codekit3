@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34335",
   "files" : {
+    "\/.gitattributes" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/.gitattributes",
+      "oF" : 0
+    },
     "\/assets\/andy-holmes-D6TqIa-tWRY-unsplash.jpg" : {
       "ft" : 16384,
       "iS" : 1171851,
@@ -1552,6 +1560,26 @@
       "oAP" : "\/deploy\/detail.html",
       "oF" : 0
     },
+    "\/deploy\/img\/header\/burger.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/header\/burger.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/header\/logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/header\/logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/img\/projects\/cows\/cow-1.jpg" : {
       "ft" : 16384,
       "iS" : 1972821,
@@ -1674,6 +1702,22 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/detail-content.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/hero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/hero.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/manifesto.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/manifesto.html",
       "oF" : 0
     },
     "\/dev\/content\/projects.kit" : {
@@ -1925,6 +1969,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_detail.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_manifesto.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_manifesto.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

@@ -461,6 +461,80 @@ nav ul li:last-child {
     Header
 ============= */
 /* =============
+    Header
+============= */
+header {
+  padding-left: 5%;
+  padding-right: 5%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+header .container {
+  display: grid;
+  margin: 1rem;
+  grid-template-columns: 50% auto;
+  grid-template-areas: "logo burger" "logo nav";
+}
+header .container #logo-container {
+  display: flex;
+  align-items: center;
+  grid-area: logo;
+}
+header .container #logo-container #logo svg {
+  margin: 0%;
+}
+header .container #burger-container {
+  display: flex;
+  grid-area: burger;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 16px;
+}
+@media (min-width: 1024px) {
+  header .container #burger-container {
+    display: none !important;
+  }
+}
+header .container #burger-container #burger {
+  height: 5rem;
+  width: 5rem;
+}
+header .container #nav-container {
+  display: none;
+}
+@media (min-width: 1024px) and (min-width: 1024px) {
+  header .container #nav-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 16px;
+  }
+}
+header .container #nav-container #navigation {
+  grid-area: nav;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: black;
+}
+header .container #nav-container #navigation ul li {
+  display: inline;
+  padding-right: 1rem;
+  font-family: Antonio;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+}
+header .container #nav-container #navigation ul li #music {
+  margin: 0;
+}
+header .container #nav-container #navigation ul li #events {
+  margin: 0;
+}
+header .container #nav-container #navigation ul li #magazine {
+  margin: 0;
+}
+
+/* =============
     Footer
 ============= */
 #projects {
@@ -532,6 +606,10 @@ nav ul li:last-child {
   height: 100%;
   width: 100%;
   display: inline-block;
+}
+
+#manifesto {
+  background: green;
 }
 
 #moreImg {
