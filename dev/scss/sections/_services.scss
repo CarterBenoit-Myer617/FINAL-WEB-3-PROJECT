@@ -25,7 +25,8 @@ body {
     text-transform: uppercase;
     transform: rotate(90deg);
     transform-origin: left center;
-    margin: 0 0 0 100px;
+    margin: 0 -50px 0 100px;
+    
   }
   #navmenu {
     list-style: none;
@@ -114,10 +115,10 @@ body {
   #stage-2 {
     // background: #090979;
     // background: linear-gradient(to right, #090979, #00d4ff);
-    #projects{
+    .projects{
       display: grid;
       grid-template-columns: 16px auto 16px;
-      grid-template-areas: ". projects .";
+      grid-template-areas: ". stage-2 .";
   
       @include xl{
           grid-template-columns: auto 1200px auto;

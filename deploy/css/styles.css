@@ -535,15 +535,17 @@ footer > div ul li a:visited:active {
 #simple .simple-container {
   position: absolute;
   width: 80%;
-  height: 40%;
-  text-align: left;
-  font-family: Helvetica;
+  height: 261px;
+  left: 121px;
+  top: 130%;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 64px;
   line-height: auto;
   text-transform: uppercase;
-  color: black;
+  text-align: left;
+  color: #000000;
 }
 
 #simple-img {
@@ -620,7 +622,7 @@ body {
   text-transform: uppercase;
   transform: rotate(90deg);
   transform-origin: left center;
-  margin: 0 0 0 100px;
+  margin: 0 -50px 0 100px;
 }
 
 #navmenu {
@@ -726,45 +728,45 @@ section {
   background: linear-gradient(to right, #6be585, #dd3e54);
 }
 
-#stage-2 #projects {
+#stage-2 .projects {
   display: grid;
   grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". projects .";
+  grid-template-areas: ". stage-2 .";
 }
 @media (min-width: 1200px) {
-  #stage-2 #projects {
+  #stage-2 .projects {
     grid-template-columns: auto 1200px auto;
   }
 }
-#stage-2 #projects > div {
+#stage-2 .projects > div {
   grid-area: projects;
 }
-#stage-2 #projects > div header {
+#stage-2 .projects > div header {
   padding-top: 24px;
 }
 @media (min-width: 768px) {
-  #stage-2 #projects > div header {
+  #stage-2 .projects > div header {
     padding-top: 36px;
   }
 }
-#stage-2 #projects > div header h1 {
+#stage-2 .projects > div header h1 {
   margin-bottom: 24px;
 }
-#stage-2 #projects > div #gallery ul {
+#stage-2 .projects > div #gallery ul {
   display: grid;
   grid-template-rows: repeat(3, 1fr);
   gap: 16px;
   height: 90vh;
 }
 @media (min-width: 768px) {
-  #stage-2 #projects > div #gallery ul {
+  #stage-2 .projects > div #gallery ul {
     height: 40vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
   }
 }
 @media (min-width: 1200px) {
-  #stage-2 #projects > div #gallery ul {
+  #stage-2 .projects > div #gallery ul {
     height: 60vh;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -772,26 +774,26 @@ section {
     grid-template-areas: "p1 p1" "p1 p1" "p2 p3";
   }
 }
-#stage-2 #projects > div #gallery ul li {
+#stage-2 .projects > div #gallery ul li {
   background-size: cover;
   background-position: center;
 }
 @media (min-width: 1200px) {
-  #stage-2 #projects > div #gallery ul li:nth-child(1) {
+  #stage-2 .projects > div #gallery ul li:nth-child(1) {
     grid-area: p1;
   }
 }
 @media (min-width: 1200px) {
-  #stage-2 #projects > div #gallery ul li:nth-child(2) {
+  #stage-2 .projects > div #gallery ul li:nth-child(2) {
     grid-area: p2;
   }
 }
 @media (min-width: 1200px) {
-  #stage-2 #projects > div #gallery ul li:nth-child(2) {
+  #stage-2 .projects > div #gallery ul li:nth-child(2) {
     grid-area: p3;
   }
 }
-#stage-2 #projects > div #gallery ul li a:link, #stage-2 #projects > div #gallery ul li a:visited {
+#stage-2 .projects > div #gallery ul li a:link, #stage-2 .projects > div #gallery ul li a:visited {
   height: 100%;
   width: 100%;
   display: inline-block;
