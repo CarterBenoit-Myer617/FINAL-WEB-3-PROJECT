@@ -113,35 +113,21 @@ body {
     background: linear-gradient(to right, #6be585, #dd3e54);
   }
   #stage-2 {
-    // background: #090979;
+    background: #090979;
+    
     // background: linear-gradient(to right, #090979, #00d4ff);
     
   
       @include xl{
           grid-template-columns: auto 1200px auto;
       }
-      >div{
-          grid-area: projects;
-  
-  
-          header{
-              padding-top: 24px;
-              @include md{
-                  padding-top: 36px;
-              }
-  
-  
-              h1{
-                  margin-bottom: 24px;
-              }
-  
-          }
-  
-          #gallery{
+     
+      #gallery{
+        
               ul{
                   display: grid;
                   grid-template-rows: repeat(3, 1fr);
-                  gap: 16px;
+                  gap: 16p;
                   height: 90vh;
   
                   @include md{
@@ -151,10 +137,11 @@ body {
                   }
   
                   @include xl{
-                      height: 60vh;
+                      height: 100vh;
+                      width: 100vw;
                       grid-template-columns: repeat(2, 1fr);
                       grid-template-rows: repeat(3, 1fr);
-                      gap: 8px;
+                     
                       grid-template-areas: 
                       "p1 p1"
                       "p1 p1"
@@ -193,8 +180,9 @@ body {
                   }
               }
           }
-      }
-  }
+        }
+      
+  
   
   #stage-3 {
     background: #833ab4;

@@ -728,67 +728,56 @@ section {
   background: linear-gradient(to right, #6be585, #dd3e54);
 }
 
+#stage-2 {
+  background: #090979;
+}
 @media (min-width: 1200px) {
   #stage-2 {
     grid-template-columns: auto 1200px auto;
   }
 }
-#stage-2 > div {
-  grid-area: projects;
-}
-#stage-2 > div header {
-  padding-top: 24px;
-}
-@media (min-width: 768px) {
-  #stage-2 > div header {
-    padding-top: 36px;
-  }
-}
-#stage-2 > div header h1 {
-  margin-bottom: 24px;
-}
-#stage-2 > div #gallery ul {
+#stage-2 #gallery ul {
   display: grid;
   grid-template-rows: repeat(3, 1fr);
-  gap: 16px;
+  gap: 16p;
   height: 90vh;
 }
 @media (min-width: 768px) {
-  #stage-2 > div #gallery ul {
+  #stage-2 #gallery ul {
     height: 40vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
   }
 }
 @media (min-width: 1200px) {
-  #stage-2 > div #gallery ul {
-    height: 60vh;
+  #stage-2 #gallery ul {
+    height: 100vh;
+    width: 100vw;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    gap: 8px;
     grid-template-areas: "p1 p1" "p1 p1" "p2 p3";
   }
 }
-#stage-2 > div #gallery ul li {
+#stage-2 #gallery ul li {
   background-size: cover;
   background-position: center;
 }
 @media (min-width: 1200px) {
-  #stage-2 > div #gallery ul li:nth-child(1) {
+  #stage-2 #gallery ul li:nth-child(1) {
     grid-area: p1;
   }
 }
 @media (min-width: 1200px) {
-  #stage-2 > div #gallery ul li:nth-child(2) {
+  #stage-2 #gallery ul li:nth-child(2) {
     grid-area: p2;
   }
 }
 @media (min-width: 1200px) {
-  #stage-2 > div #gallery ul li:nth-child(2) {
+  #stage-2 #gallery ul li:nth-child(2) {
     grid-area: p3;
   }
 }
-#stage-2 > div #gallery ul li a:link, #stage-2 > div #gallery ul li a:visited {
+#stage-2 #gallery ul li a:link, #stage-2 #gallery ul li a:visited {
   height: 100%;
   width: 100%;
   display: inline-block;
