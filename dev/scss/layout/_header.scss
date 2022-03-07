@@ -2,111 +2,34 @@
     Header
 ============= */
 
+#header {
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+}
 
-/* =============
-    Header
-============= */
-header {
-
-    padding-left: 5%;
-    padding-right: 5%;
-
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-
-
-
-    .container {
-
-        display: grid;
-        margin: 1rem;
-        grid-template-columns: 50% auto;
-        grid-template-areas:
-            "logo burger"
-            "logo nav";
-
-        #logo-container {
-            display: flex;
-            align-items: center;
-            // margin-right: 16px;
+#hero-img {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://carterbenoitmyer.com/wp-content/uploads/2021/11/IMG_0364.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: bottom center;
+    background-size: cover;
 
 
-            grid-area: logo;
 
-            #logo {
-              
-                svg {
-                    
-                    margin: 0%;
-                }
-            }
-        }
+}
 
-        #burger-container {            
-            display: flex;
-            grid-area: burger;
-            justify-content: flex-end;
-            align-items: center;
-            margin-right: 16px;
-
-            @include lg {
-                display: none !important;
-            }
-
-            // burger svg
-            #burger {
-                height: 5rem;
-                width: 5rem;
-            }
-        }
-
-        #nav-container {
-
-            display: none;
-
-            @include lg {
-                @media (min-width: #{$screen-lg-min}) {
-                    display: flex;
-                    justify-content: flex-end;
-                    align-items: center;
-                    margin-right: 16px;
-                }
-            }
-
-            
-            #navigation {
-                grid-area: nav;
-                display: flex;
-                align-items: center;
-                text-align: center;
-                color: black;
-                // text-decoration: none;?????
-                
-
-                ul {
-
-                    li {
-                        display: inline;
-                        padding-right: 1rem;
-                        font-family: Antonio;
-                        font-style: normal;
-                        font-weight: normal;
-                        font-size: 2rem;
-                        
-                    
-                        #music {
-                            margin: 0;
-                        }
-
-                        #events {
-                            margin: 0;
-                        }
-
-                        #magazine {
-                            margin: 0;
-                        }
-                    }
-                }
-            }
-        }
-    }
+#hero-text {
+    font-style: Roboto+Mono;
+    color: azure;
+    padding: 90px 0% 90px 0%;
+    z-index: 9999;
+    position: absolute;
+    height: 74px;
+    left: 10.5%;
+    right: 33.5%;
+    top: calc(50% - 74px/2 - 72.5px);
+    
 }

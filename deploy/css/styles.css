@@ -460,83 +460,247 @@ nav ul li:last-child {
 /* =============
     Header
 ============= */
-/* =============
-    Header
-============= */
-header {
-  padding-left: 5%;
-  padding-right: 5%;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-header .container {
-  display: grid;
-  margin: 1rem;
-  grid-template-columns: 50% auto;
-  grid-template-areas: "logo burger" "logo nav";
-}
-header .container #logo-container {
-  display: flex;
+#header {
+  height: 100vh;
+  width: 100vw;
   align-items: center;
-  grid-area: logo;
 }
-header .container #logo-container #logo svg {
-  margin: 0%;
+
+#hero-img {
+  height: 100%;
+  width: 100%;
+  background-image: url(https://carterbenoitmyer.com/wp-content/uploads/2021/11/IMG_0364.png);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: bottom center;
+  background-size: cover;
 }
-header .container #burger-container {
-  display: flex;
-  grid-area: burger;
-  justify-content: flex-end;
-  align-items: center;
-  margin-right: 16px;
-}
-@media (min-width: 1024px) {
-  header .container #burger-container {
-    display: none !important;
-  }
-}
-header .container #burger-container #burger {
-  height: 5rem;
-  width: 5rem;
-}
-header .container #nav-container {
-  display: none;
-}
-@media (min-width: 1024px) and (min-width: 1024px) {
-  header .container #nav-container {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-right: 16px;
-  }
-}
-header .container #nav-container #navigation {
-  grid-area: nav;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: black;
-}
-header .container #nav-container #navigation ul li {
-  display: inline;
-  padding-right: 1rem;
-  font-family: Antonio;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 2rem;
-}
-header .container #nav-container #navigation ul li #music {
-  margin: 0;
-}
-header .container #nav-container #navigation ul li #events {
-  margin: 0;
-}
-header .container #nav-container #navigation ul li #magazine {
-  margin: 0;
+
+#hero-text {
+  font-style: RobotoMono;
+  color: azure;
+  padding: 90px 0% 90px 0%;
+  z-index: 9999;
+  position: absolute;
+  height: 74px;
+  left: 10.5%;
+  right: 33.5%;
+  top: calc(50% - 37px - 72.5px);
 }
 
 /* =============
     Footer
 ============= */
+#simple {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(https://carterbenoitmyer.com/wp-content/uploads/2022/01/ACSVZ-01.png);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: contain;
+}
+
+#simple-img {
+  background-image: url(https://carterbenoitmyer.com/wp-content/uploads/2022/01/ACSVZ-01.png);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: contain;
+}
+
+#manifesto {
+  background: green;
+  height: 50vh;
+  width: 100vw;
+}
+
+body {
+  padding-left: 100px !important;
+}
+
+#masthead {
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  background: #fff;
+  width: 100px;
+  height: 100vh;
+  color: #000;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: block;
+  color: #000;
+  font-size: 36px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  transform: rotate(90deg);
+  transform-origin: left center;
+  margin: 0 0 0 100px;
+}
+
+#navmenu {
+  list-style: none;
+  color: #000;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+#navmenu > li {
+  padding: 0 0 10px;
+}
+
+#navmenu a {
+  color: #000;
+  text-decoration: none;
+}
+
+#content {
+  overflow-x: hidden;
+}
+
+#hscroll {
+  width: calc(500vw - 100px);
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.stage {
+  width: calc(100vw - 100px);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 0;
+  padding: 20px;
+}
+
+.proxy {
+  visibility: hidden;
+  opacity: 0;
+}
+
+#btnright {
+  position: absolute;
+  z-index: 9999;
+  right: 30px;
+  bottom: 15px;
+  background: #fcc;
+  border: none;
+  color: #000;
+  font-size: 16px;
+  line-height: 1;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#btncontact {
+  position: fixed;
+  z-index: 9999;
+  right: 0;
+  bottom: 30px;
+  background: #000;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+/*== For DEMO Styling Only==*/
+body, header, main, footer, div, section {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: #fff;
+}
+
+section {
+  text-align: center;
+  color: #fff;
+  font-size: 2em;
+}
+
+#stage-1 {
+  background: #dd3e54;
+  background: linear-gradient(to right, #6be585, #dd3e54);
+}
+
+#stage-2 {
+  background: #090979;
+  background: linear-gradient(to right, #090979, #00d4ff);
+}
+
+#stage-3 {
+  background: #833ab4;
+  background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+}
+
+#stage-4 {
+  background: #009FFF;
+  background: linear-gradient(to right, #009FFF, #ec2F4B);
+}
+
+#stage-5 {
+  background: #8A2387;
+  background: linear-gradient(to right, #8A2387, #E94057, #F27121);
+}
+
+@media only screen and (max-width: 991px) {
+  body {
+    padding-left: 0 !important;
+  }
+
+  #hscroll {
+    width: 100vw;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .stage {
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+  }
+
+  #masthead {
+    width: 100%;
+    height: auto;
+    padding: 10px 20px;
+  }
+
+  .logo {
+    width: 106px;
+    margin: 0 auto;
+    transform: rotate(0deg);
+    left: 0;
+    top: 0;
+  }
+}
 #projects {
   display: grid;
   grid-template-columns: 16px auto 16px;
@@ -606,10 +770,6 @@ header .container #nav-container #navigation ul li #magazine {
   height: 100%;
   width: 100%;
   display: inline-block;
-}
-
-#manifesto {
-  background: green;
 }
 
 #moreImg {

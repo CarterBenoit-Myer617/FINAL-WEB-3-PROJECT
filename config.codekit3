@@ -1570,6 +1570,19 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/header\/hero-portrait.png" : {
+      "ft" : 32768,
+      "iS" : 756086,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/header\/hero-portrait.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/header\/logo.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -1658,6 +1671,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/simple\/IMG_1467 Large.png" : {
+      "ft" : 32768,
+      "iS" : 797686,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/simple\/IMG_1467 Large.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1704,14 +1730,6 @@
       "oAP" : "\/dev\/content\/detail-content.html",
       "oF" : 0
     },
-    "\/dev\/content\/hero.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/hero.html",
-      "oF" : 0
-    },
     "\/dev\/content\/manifesto.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -1726,6 +1744,22 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/projects.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/services.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/services.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/simple.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/simple.html",
       "oF" : 0
     },
     "\/dev\/detail.kit" : {
@@ -1999,6 +2033,36 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_projects.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_services.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_services.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_simple.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_simple.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
