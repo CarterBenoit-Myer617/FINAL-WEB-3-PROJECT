@@ -7,7 +7,7 @@ export let projects = [
     {
         title:"Cows",
         description:"Ut id dui sed sapien sagittis commodo. Ut semper facilisis arcu eu pretium. Vivamus sit amet pharetra erat. Curabitur a sem sed dui accumsan tincidunt. Aliquam felis mi, eleifend at urna vel, laoreet malesuada risus. Morbi pellentesque fringilla purus eu rutrum. Nullam convallis aliquam risus. Donec ex augue, semper et felis vel, tempor posuere erat.",
-        images:['./img/projects/cows/cow-1.jpg','./img/projects/cows/cow-2.jpg']
+        images:['./img/projects/cows/duke.png','./img/projects/cows/art.png']
     },
     {
         title:"Zoo Animals",

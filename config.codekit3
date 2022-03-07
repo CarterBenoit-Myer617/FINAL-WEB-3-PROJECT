@@ -1570,19 +1570,6 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/header\/hero-portrait.png" : {
-      "ft" : 32768,
-      "iS" : 756086,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/header\/hero-portrait.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/deploy\/img\/header\/logo.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -1592,6 +1579,58 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/deploy\/img\/hero\/hero-portrait.png" : {
+      "ft" : 32768,
+      "iS" : 756086,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/hero\/hero-portrait.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/hero\/screenshot.png" : {
+      "ft" : 32768,
+      "iS" : 1171644,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/hero\/screenshot.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/hero\/screenshotsmall.jpeg" : {
+      "ft" : 16384,
+      "iS" : 22287,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/hero\/screenshotsmall.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/projects\/cows\/art.png" : {
+      "ft" : 32768,
+      "iS" : 3088495,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/projects\/cows\/art.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/img\/projects\/cows\/cow-1.jpg" : {
       "ft" : 16384,
@@ -1615,6 +1654,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/projects\/cows\/duke.png" : {
+      "ft" : 32768,
+      "iS" : 13404038,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/projects\/cows\/duke.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1671,11 +1723,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/simple\/IMG_1467 Large.png" : {
+    "\/deploy\/img\/simple\/ice.png" : {
       "ft" : 32768,
       "iS" : 797686,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/simple\/IMG_1467 Large.png",
+      "oAP" : "\/deploy\/img\/simple\/ice.png",
       "oF" : 0,
       "oIPL" : 1,
       "opt" : 1,
@@ -1730,6 +1782,14 @@
       "oAP" : "\/dev\/content\/detail-content.html",
       "oF" : 0
     },
+    "\/dev\/content\/hero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/hero.html",
+      "oF" : 0
+    },
     "\/dev\/content\/manifesto.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -1774,7 +1834,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/global\/footer.html",
       "oF" : 0
     },
@@ -2003,6 +2063,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_detail.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_hero.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_hero.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

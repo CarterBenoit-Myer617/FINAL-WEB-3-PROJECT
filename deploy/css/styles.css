@@ -460,59 +460,135 @@ nav ul li:last-child {
 /* =============
     Header
 ============= */
-#header {
+/* =============
+    Footer
+============= */
+footer {
+  background-color: #F8C832;
+  display: grid;
+  grid-template-areas: ". footer .";
+  grid-template-columns: 10px auto 10px;
+  padding: 45px 0 40px;
+  text-align: center;
+}
+footer > div {
+  grid-area: footer;
+}
+footer > div h1 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+footer > div h1 span {
+  color: #fff;
+}
+footer > div ul {
+  display: flex;
+  justify-content: center;
+}
+footer > div ul li {
+  margin: 0 10px;
+}
+footer > div ul li a:link,
+footer > div ul li a:visited {
+  color: #000;
+  font-size: 1.875rem;
+  transition: 0.25s;
+}
+footer > div ul li a:link:hover, footer > div ul li a:link:active,
+footer > div ul li a:visited:hover,
+footer > div ul li a:visited:active {
+  color: #fff;
+}
+
+#hero {
+  background-color: palevioletred;
   height: 100vh;
   width: 100vw;
   align-items: center;
 }
-
-#hero-img {
+#hero #hero-img {
   height: 100%;
   width: 100%;
-  background-image: url(https://carterbenoitmyer.com/wp-content/uploads/2021/11/IMG_0364.png);
+  background-image: url("../img/projects/cows/art.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: bottom center;
   background-size: cover;
 }
-
-#hero-text {
+#hero #hero-text {
   font-style: RobotoMono;
-  color: azure;
+  color: black;
   padding: 90px 0% 90px 0%;
   z-index: 9999;
   position: absolute;
+  text-align: left;
   height: 74px;
   left: 10.5%;
   right: 33.5%;
   top: calc(50% - 37px - 72.5px);
 }
 
-/* =============
-    Footer
-============= */
 #simple {
   height: 100vh;
   width: 100vw;
-  background-image: url(https://carterbenoitmyer.com/wp-content/uploads/2022/01/ACSVZ-01.png);
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: contain;
+}
+#simple .simple-container {
+  position: absolute;
+  width: 80%;
+  height: 40%;
+  text-align: left;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: auto;
+  text-transform: uppercase;
+  color: black;
 }
 
 #simple-img {
-  background-image: url(https://carterbenoitmyer.com/wp-content/uploads/2022/01/ACSVZ-01.png);
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: contain;
+  background-image: url("./img/simple/art.png");
 }
 
 #manifesto {
-  background: green;
   height: 50vh;
   width: 100vw;
+}
+
+.manifesto {
+  height: 100vh;
+  width: 100vw;
+}
+
+.manifesto-dash {
+  position: absolute;
+  width: 332px;
+  height: 154px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.sidebar {
+  height: 100vh;
+  width: 100%;
+}
+.sidebar .manifesto-text {
+  position: absolute;
+  width: 377px;
+  height: 125%;
+  left: 75%;
+  font-family: IBM Plex Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 34px;
+  text-align: right;
+  color: #000000;
 }
 
 body {
@@ -650,9 +726,75 @@ section {
   background: linear-gradient(to right, #6be585, #dd3e54);
 }
 
-#stage-2 {
-  background: #090979;
-  background: linear-gradient(to right, #090979, #00d4ff);
+#stage-2 #projects {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". projects .";
+}
+@media (min-width: 1200px) {
+  #stage-2 #projects {
+    grid-template-columns: auto 1200px auto;
+  }
+}
+#stage-2 #projects > div {
+  grid-area: projects;
+}
+#stage-2 #projects > div header {
+  padding-top: 24px;
+}
+@media (min-width: 768px) {
+  #stage-2 #projects > div header {
+    padding-top: 36px;
+  }
+}
+#stage-2 #projects > div header h1 {
+  margin-bottom: 24px;
+}
+#stage-2 #projects > div #gallery ul {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 16px;
+  height: 90vh;
+}
+@media (min-width: 768px) {
+  #stage-2 #projects > div #gallery ul {
+    height: 40vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+}
+@media (min-width: 1200px) {
+  #stage-2 #projects > div #gallery ul {
+    height: 60vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 8px;
+    grid-template-areas: "p1 p1" "p1 p1" "p2 p3";
+  }
+}
+#stage-2 #projects > div #gallery ul li {
+  background-size: cover;
+  background-position: center;
+}
+@media (min-width: 1200px) {
+  #stage-2 #projects > div #gallery ul li:nth-child(1) {
+    grid-area: p1;
+  }
+}
+@media (min-width: 1200px) {
+  #stage-2 #projects > div #gallery ul li:nth-child(2) {
+    grid-area: p2;
+  }
+}
+@media (min-width: 1200px) {
+  #stage-2 #projects > div #gallery ul li:nth-child(2) {
+    grid-area: p3;
+  }
+}
+#stage-2 #projects > div #gallery ul li a:link, #stage-2 #projects > div #gallery ul li a:visited {
+  height: 100%;
+  width: 100%;
+  display: inline-block;
 }
 
 #stage-3 {

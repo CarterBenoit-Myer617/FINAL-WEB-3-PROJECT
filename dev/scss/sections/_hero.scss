@@ -1,0 +1,33 @@
+#hero {
+    background-color: palevioletred;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+
+    #hero-img {
+        height: 100%;
+        width: 100%;
+        background-image: url('../img/projects/cows/art.png');
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: bottom center;
+        background-size: cover;
+
+
+
+    }
+
+    #hero-text {
+        font-style: Roboto+Mono;
+        color: black;
+        padding: 90px 0% 90px 0%;
+        z-index: 9999;
+        position: absolute;
+        text-align: left;
+        height: 74px;
+        left: 10.5%;
+        right: 33.5%;
+        top: calc(50% - 74px/2 - 72.5px);
+
+    }
+}
