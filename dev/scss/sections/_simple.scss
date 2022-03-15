@@ -5,14 +5,14 @@
     width: 100vw;
 
     .simple-container {
+        
         position: absolute;
-        width: 80%;
-        height: 261px;
-        left: 121px;
+        width: 50%;
+        height: 50%;
+        left: 15%;
         top: 130%;
 
-        
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: Helvetica;
         font-style: normal;
         font-weight: 600;
         font-size: 64px;
@@ -22,14 +22,13 @@
         
         color: #000000;
 
-
     }
 
-
-
-
-}
-
 #simple-img {
-    background-image: url('./img/simple/art.png');
+    background-image: url("../img/simple/ice.png");
+    background-size: cover;
 }
+
+
+}
+

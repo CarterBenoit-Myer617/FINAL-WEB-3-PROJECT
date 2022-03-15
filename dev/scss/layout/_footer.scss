@@ -2,7 +2,8 @@
     Footer
 ============= */
 footer {
-    background-color: $yellow;
+    
+    background-color: lightcyan;
     display: grid;
     grid-template-areas: ". footer .";
     grid-template-columns: 10px auto 10px;
@@ -17,7 +18,7 @@ footer {
             margin-bottom: 10px;
 
             span {
-                color: $white;
+                color: grey;
             }
         }
 

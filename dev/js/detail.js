@@ -13,18 +13,17 @@ window.addEventListener('load', function() {
         description.innerHTML = projects[localStorage.getItem("indexValue")].description;
 
 
-
         let imgDetailsArray = this.document.querySelectorAll(".detail-imgs");
 
         imgDetailsArray.forEach((image, i) => {
             imgDetailsArray[i].style.backgroundImage = "url(" + projects[localStorage.getItem("indexValue")].images[i] + ")";
         });
 
-        // let heroImg = document.querySelector("#detail-hero");
-        // heroImg.style.backgroundImage = "url(" + projects[localStorage.getItem("indexValue")].images[1] + ")";
+        let heroImg = document.querySelector("#detail-hero");
+        heroImg.style.backgroundImage = "url(" + projects[localStorage.getItem("indexValue")].images[1] + ")";
 
-        // let moreImg = document.querySelector("#moreImg");
-        // moreImg.style.backgroundImage = "url(" + projects[localStorage.getItem("indexValue")].images[0] + ")";
+        let moreImg = document.querySelector("#moreImg");
+        moreImg.style.backgroundImage = "url(" + projects[localStorage.getItem("indexValue")].images[0] + ")";
         
 });
 
