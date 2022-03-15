@@ -1,4 +1,63 @@
-import { projects } from "./projects"
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
+// <-----scrolltrigger-demo------->
+
+
+let sections = gsap.utils.toArray(".stage");
+let scrollContainer = document.querySelector("#service-scroll");
+
+ScrollTrigger.matchMedia({
+  "(min-width: 992px)": function() {
+
+    let scrollTween = gsap.to(sections, {
+      xPercent: -100 * (sections.length - 1),
+      ease: "none"
+    });
+
+    let horizontalScroll = ScrollTrigger.create({
+      animation: scrollTween,
+      trigger: scrollContainer,
+      pin: true,
+      scrub: 1,
+      end: () => "+=" + scrollContainer.offsetWidth,
+    });
+  },
+  "all": function() {}
+});
+
+
+
+const wideViewport = window.matchMedia("(min-width: 992px)");
+
+document.querySelectorAll("#navmenu a").forEach(element => {
+  
+  element.addEventListener('click', function(e) {
+    
+    e.preventDefault();
+    const id = this.getAttribute('href').split('#')[1];
+    
+    const targetElement = document.getElementById(id)
+    const navBar = document.getElementById('masthead')
+
+    if(wideViewport.matches) {
+      gsap.to(window, {
+        scrollTo: ( (targetElement.offsetLeft + navBar.offsetWidth*sections.indexOf(targetElement)) * (scrollContainer.offsetWidth / (scrollContainer.offsetWidth - targetElement.offsetWidth)) ),
+        duration: 2
+      })
+    } else {
+      gsap.to(window, {
+        scrollTo: targetElement,
+        duration: 2
+      })
+    }
+    
+  });
+  
+});
+// <-----scrolltrigger-demo-end------->
+
+import * as galleries from "./projects"
 
 window.addEventListener('load', function() {
 
@@ -6,31 +65,35 @@ window.addEventListener('load', function() {
 
     // populate the hero images
     let heroImgArray = document.querySelectorAll('#gallery li');
+    console.log(heroImgArray)
     // iterate over the heroImgArray and populate the background images
     heroImgArray.forEach((heroImg, i) => {
 
         // first pass in the array
         // heroImg.style.backgroundImage = "url(./img/projects/turtles/turtle-1.jpg)";
 
-        heroImg.style.backgroundImage = "url(" + projects[i].images[0] + ")";
+        heroImg.style.backgroundImage = "url(" + galleries.creativeDirection[i].images[0] + ")";
+      
+       
+
 
     });
 
     let heroLinks = document.querySelectorAll("#gallery a");
 
     heroLinks.forEach((link, i) => {
-        // console.log("hello");
+        console.log("hello");
 
         link.addEventListener("click", () =>{
             localStorage.setItem("indexValue", i);
-            link.href = "detail.html?=" + projects[i].title;
+            link.href = "detail.html?=" + galleries.creativeDirection[i].title;
         });
     });
 
 
 
 
-    gsap.registerPlugin(ScrollTrigger);
+    // gsap.registerPlugin(ScrollTrigger);
 
 let sections = gsap.utils.toArray(".stage");
 let scrollContainer = document.querySelector("#hscroll");
@@ -101,8 +164,8 @@ document.querySelectorAll("#navmenu a").forEach(element => {
     const targetElement = document.getElementById(id)
     const navBar = document.getElementById('masthead')
     
-    // console.log( document.getElementById(id) )
-    // console.log( sections.indexOf(document.getElementById(id)) )
+    console.log( document.getElementById(id) )
+    console.log( sections.indexOf(document.getElementById(id)) )
     
     if(wideViewport.matches) {
       gsap.to(window, {
