@@ -470,7 +470,7 @@ body {
   left: 0;
   top: 0;
   background: #fff;
-  width: 10%;
+  width: 100px;
   height: 100vh;
   color: #000;
   padding: 10px 10px;
@@ -806,6 +806,7 @@ section {
 }
 #projects > div {
   grid-area: projects;
+  background-color: bisque;
   width: 100vw;
   height: 100vh;
 }
@@ -850,7 +851,6 @@ section {
 @media (min-width: 1200px) {
   #projects > div #gallery ul li:nth-child(1) {
     grid-area: p1;
-    background-image: url("../img/turtles/sk.png");
   }
 }
 @media (min-width: 1200px) {
@@ -899,7 +899,7 @@ section {
 #detail > div button {
   position: absolute;
   top: 16px;
-  left: 30%;
+  left: 30px;
   padding: 2%;
   background-color: transparent;
   color: black;

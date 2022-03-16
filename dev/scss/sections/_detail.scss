@@ -1,7 +1,8 @@
 #moreImg{
-    height: 50vh;
+    height: 80vh;
     width: 100%;
     background-size: cover;
+    background-position:center 20%;
 }
 
 #detail{
@@ -10,20 +11,23 @@
     grid-template-areas: ". detail .";
     padding-top: 50px;
     position: relative;
+    height: max-content;
 
     @include xl{
-        grid-template-columns: auto 1200px auto;
+        grid-template-columns:30% auto 16;
     }
 
     >div{
         grid-area: detail;
         display: grid;
         grid-template-columns: 50% auto;
+        height: 3900vh;
 
         button{
             position: absolute;
             top: 16px;
-            left: 16px;
+            left: 30px;
+            padding: 2%;
             background-color: transparent;
             color: black;
             font-weight: 600;
@@ -31,18 +35,31 @@
         }
 
         section{
+            padding: 10%;
+            padding-right: 30%;
+           
+
+
             h1{
+                color: black;
+                text-align: left;
 
             }
 
             p{
+                color: black;
+                font-size: 2rem;
+                text-align: left;
 
             }
         }
         #detail-hero{
+            padding: 10%;
             background-size: cover;
             background-position: center;
-            height: 50vh;
+            height: 100%;
+            width: 85%;
+            margin-left: -20%;
         }
     }
 }
