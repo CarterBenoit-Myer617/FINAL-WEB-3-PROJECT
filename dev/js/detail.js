@@ -13,6 +13,7 @@ window.addEventListener('load', function() {
         description.innerHTML = projects[localStorage.getItem("indexValue")].description;
 
 
+
         let imgDetailsArray = this.document.querySelectorAll(".detail-imgs");
 
         imgDetailsArray.forEach((image, i) => {

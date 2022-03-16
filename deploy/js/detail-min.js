@@ -3,7 +3,7 @@
     let e = [{
         title: "Turtles",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis maximus arcu mattis fringilla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam interdum eleifend commodo. Morbi pretium egestas tincidunt. Nunc porta risus vitae nunc facilisis consequat. Integer justo ipsum, lacinia non vestibulum vel, tincidunt ut augue. Nullam elementum nunc a ultricies viverra. Duis malesuada massa eros, a euismod mauris bibendum non. Curabitur tellus erat, posuere ac leo ac, pellentesque consectetur turpis. Mauris in blandit nibh, sit amet condimentum eros. Mauris ultrices orci a ipsum hendrerit efficitur. Nunc tempor nulla dui, nec cursus urna dictum at.",
-        images: ["./img/projects/turtles/turtle-1.jpg", "./img/projects/turtles/turtle-2.jpg"]
+        images: ["./img/projects/turtles/sketchhero.png", "./img/projects/turtles/frame.png"]
     }, {
         title: "Cows",
         description: "Ut id dui sed sapien sagittis commodo. Ut semper facilisis arcu eu pretium. Vivamus sit amet pharetra erat. Curabitur a sem sed dui accumsan tincidunt. Aliquam felis mi, eleifend at urna vel, laoreet malesuada risus. Morbi pellentesque fringilla purus eu rutrum. Nullam convallis aliquam risus. Donec ex augue, semper et felis vel, tempor posuere erat.",

@@ -1671,6 +1671,58 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/projects\/turtles\/dfg.png" : {
+      "ft" : 32768,
+      "iS" : 809861,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/projects\/turtles\/dfg.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/projects\/turtles\/Frame.png" : {
+      "ft" : 32768,
+      "iS" : 38576717,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/projects\/turtles\/Frame.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/projects\/turtles\/sk.png" : {
+      "ft" : 32768,
+      "iS" : 4617005,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/projects\/turtles\/sk.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/projects\/turtles\/sketchhero.png" : {
+      "ft" : 32768,
+      "iS" : 6754938,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/projects\/turtles\/sketchhero.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/projects\/turtles\/turtle-1.jpg" : {
       "ft" : 16384,
       "iS" : 162952,
@@ -1744,6 +1796,17 @@
       "oAP" : "\/deploy\/index.html",
       "oF" : 0
     },
+    "\/deploy\/js\/detail-min-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/deploy\/js\/detail-min-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/deploy\/js\/detail-min.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -1804,14 +1867,6 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/manifesto.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/projects.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/projects.html",
       "oF" : 0
     },
     "\/dev\/content\/services.kit" : {
@@ -1878,19 +1933,30 @@
       "oAP" : "\/deploy\/index.html",
       "oF" : 2
     },
-    "\/dev\/js\/detail.js" : {
-      "bF" : 4,
+    "\/dev\/js\/detail-min.js" : {
+      "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/deploy\/js\/detail-min.js",
-      "oF" : 2,
+      "oAP" : "\/dev\/js\/detail-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/js\/detail.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/dev\/js\/detail-min.js",
+      "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
     "\/dev\/js\/projects.js" : {
-      "bF" : 4,
+      "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
@@ -1900,14 +1966,25 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/js\/scripts.js" : {
-      "bF" : 4,
+    "\/dev\/js\/scripts-min.js" : {
+      "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/deploy\/js\/scripts-min.js",
-      "oF" : 2,
+      "oAP" : "\/dev\/js\/scripts-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/js\/scripts.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/dev\/js\/scripts-min.js",
+      "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
