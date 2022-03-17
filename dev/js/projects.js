@@ -1,20 +1,20 @@
-export let creativeDirection = [
-    {
-        title:"SKETCHES",
-        description: "Sketching is a pure form of creative exploration. Once I started studying design at Drexel I was able to explore my illustrative style and creative expression. This is when I realized there is nothing to prove. ",
-        images:['./img/projects/turtles/SKETCH.png','./img/projects/turtles/sketchhero.png']
-    },
-    {
-        title:"Cows",
-        description:"Ut id dui sed sapien sagittis commodo. Ut semper facilisis arcu eu pretium. Vivamus sit amet pharetra erat. Curabitur a sem sed dui accumsan tincidunt. Aliquam felis mi, eleifend at urna vel, laoreet malesuada risus. Morbi pellentesque fringilla purus eu rutrum. Nullam convallis aliquam risus. Donec ex augue, semper et felis vel, tempor posuere erat.",
-        images:['./img/projects/cows/duke.png','./img/projects/cows/art.png']
-    },
-    {
-        title:"Zoo Animals",
-        description:"Duis ultricies feugiat erat eget tempor. Vestibulum bibendum est eu posuere suscipit. Pellentesque tincidunt sapien vitae elit vulputate vestibulum. Proin vel molestie ex. Ut vehicula nibh eu laoreet commodo. Aenean volutpat, nibh in faucibus semper, ipsum est feugiat ex, in volutpat sapien lacus ac massa. Vivamus vel nisi et sapien ullamcorper luctus sit amet sed magna. Sed porttitor sem id eros rhoncus aliquam. Phasellus dapibus, purus a consequat venenatis, nunc diam aliquam tellus, eget congue ante risus a augue. Morbi ut massa ut turpis consequat tincidunt.",
-        images:['./img/projects/zoo/zoo-1.jpg','./img/projects/zoo/zoo-2.jpg']
-    }
-]; 
+// export let creativeDirection = [
+//     {
+//         title:"SKETCHES",
+//         description: "Sketching is a pure form of creative exploration. Once I started studying design at Drexel I was able to explore my illustrative style and creative expression. This is when I realized there is nothing to prove. ",
+//         images:['./img/projects/turtles/SKETCH.png','./img/projects/turtles/sketchhero.png']
+//     },
+//     {
+//         title:"Cows",
+//         description:"Ut id dui sed sapien sagittis commodo. Ut semper facilisis arcu eu pretium. Vivamus sit amet pharetra erat. Curabitur a sem sed dui accumsan tincidunt. Aliquam felis mi, eleifend at urna vel, laoreet malesuada risus. Morbi pellentesque fringilla purus eu rutrum. Nullam convallis aliquam risus. Donec ex augue, semper et felis vel, tempor posuere erat.",
+//         images:['./img/projects/cows/duke.png','./img/projects/cows/art.png']
+//     },
+//     {
+//         title:"Zoo Animals",
+//         description:"Duis ultricies feugiat erat eget tempor. Vestibulum bibendum est eu posuere suscipit. Pellentesque tincidunt sapien vitae elit vulputate vestibulum. Proin vel molestie ex. Ut vehicula nibh eu laoreet commodo. Aenean volutpat, nibh in faucibus semper, ipsum est feugiat ex, in volutpat sapien lacus ac massa. Vivamus vel nisi et sapien ullamcorper luctus sit amet sed magna. Sed porttitor sem id eros rhoncus aliquam. Phasellus dapibus, purus a consequat venenatis, nunc diam aliquam tellus, eget congue ante risus a augue. Morbi ut massa ut turpis consequat tincidunt.",
+//         images:['./img/projects/zoo/zoo-1.jpg','./img/projects/zoo/zoo-2.jpg']
+//     }
+// ]; 
 
 // export let branding = [
 //     {

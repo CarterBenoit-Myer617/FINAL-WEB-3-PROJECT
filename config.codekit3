@@ -1560,6 +1560,19 @@
       "oAP" : "\/deploy\/detail.html",
       "oF" : 0
     },
+    "\/deploy\/img\/about\/llama_cutout.png" : {
+      "ft" : 32768,
+      "iS" : 192219,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/about\/llama_cutout.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/header\/burger.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -1619,19 +1632,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/projects\/cows\/art.png" : {
-      "ft" : 32768,
-      "iS" : 3088495,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/projects\/cows\/art.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/deploy\/img\/projects\/cows\/cow-1.jpg" : {
       "ft" : 16384,
       "iS" : 1972821,
@@ -1658,37 +1658,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/projects\/cows\/digital.jpg" : {
+      "ft" : 16384,
+      "iS" : 13520204,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/projects\/cows\/digital.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/projects\/cows\/duke.ai" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/projects\/cows\/duke.ai",
+      "oF" : 0
+    },
     "\/deploy\/img\/projects\/cows\/duke.png" : {
       "ft" : 32768,
       "iS" : 13404038,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/projects\/cows\/duke.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/projects\/turtles\/dfg.png" : {
-      "ft" : 32768,
-      "iS" : 809861,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/projects\/turtles\/dfg.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/projects\/turtles\/Frame.png" : {
-      "ft" : 32768,
-      "iS" : 38576717,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/projects\/turtles\/Frame.png",
       "oF" : 0,
       "oIPL" : 1,
       "opt" : 1,
@@ -1710,6 +1705,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/projects\/turtles\/sketch.jpg" : {
+      "ft" : 16384,
+      "iS" : 30334288,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/projects\/turtles\/sketch.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/projects\/turtles\/sketchhero.png" : {
       "ft" : 32768,
       "iS" : 6754938,
@@ -1723,9 +1731,48 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/projects\/turtles\/turtle-1-01.png" : {
+      "ft" : 32768,
+      "iS" : 6620254,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/projects\/turtles\/turtle-1-01.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/projects\/turtles\/turtle-1-02.jpg" : {
+      "ft" : 16384,
+      "iS" : 850182,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/projects\/turtles\/turtle-1-02.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/projects\/turtles\/turtle-1-02.png" : {
+      "ft" : 32768,
+      "iS" : 6620254,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/projects\/turtles\/turtle-1-02.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/projects\/turtles\/turtle-1.jpg" : {
       "ft" : 16384,
-      "iS" : 162952,
+      "iS" : 850182,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/projects\/turtles\/turtle-1.jpg",
@@ -1749,9 +1796,48 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/projects\/zoo\/art.png" : {
+      "ft" : 32768,
+      "iS" : 3088495,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/projects\/zoo\/art.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/projects\/zoo\/paint.jpg" : {
+      "ft" : 16384,
+      "iS" : 33116943,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/projects\/zoo\/paint.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/projects\/zoo\/zoo-1-01.png" : {
+      "ft" : 32768,
+      "iS" : 3056391,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/projects\/zoo\/zoo-1-01.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/projects\/zoo\/zoo-1.jpg" : {
       "ft" : 16384,
-      "iS" : 963737,
+      "iS" : 713792,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/projects\/zoo\/zoo-1.jpg",
@@ -1828,22 +1914,6 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
-    },
-    "\/design\/structure-tags.sketch" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/design\/structure-tags.sketch",
-      "oF" : 0
-    },
-    "\/dev\/content\/about.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/about.html",
-      "oF" : 0
     },
     "\/dev\/content\/detail-content.kit" : {
       "cB" : 0,
@@ -2138,21 +2208,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_about.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_about.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
     "\/dev\/scss\/sections\/_detail.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -2297,7 +2352,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 663616749.49805403,
-    "displayValue" : "web-3-students-W22-simpleDatabase",
+    "displayValue" : "FINAL-WEB-3-PROJECT",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "meme-dunnoGirl",
     "iconImageWasSetByUser" : 1

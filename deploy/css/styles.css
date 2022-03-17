@@ -646,7 +646,13 @@ footer > div ul li a:visited:active {
   font-style: thin;
   padding: 10px;
 }
-#hero #hero-text button {
+#hero #hero-text #projects {
+  margin-top: 3%;
+  margin-right: 2%;
+  padding: 3%;
+  border-radius: 20%;
+}
+#hero #hero-text #projects button {
   margin-top: 3%;
   margin-right: 2%;
   padding: 3%;
@@ -659,7 +665,7 @@ footer > div ul li a:visited:active {
 }
 #simple .simple-container {
   position: absolute;
-  width: 50%;
+  width: 60%;
   height: 50%;
   left: 15%;
   top: 130%;
@@ -713,9 +719,9 @@ footer > div ul li a:visited:active {
 }
 .sidebar .manifesto-text {
   position: absolute;
-  width: 30%;
+  width: 40%;
   height: 100%;
-  left: 65%;
+  left: 55%;
   margin-top: 10%;
   font-family: IBM Plex Mono;
   font-style: normal;
@@ -748,7 +754,7 @@ section {
 }
 
 #stage-1 {
-  background: red;
+  background: white;
   padding: 0;
 }
 
@@ -806,7 +812,6 @@ section {
 }
 #projects > div {
   grid-area: projects;
-  background-color: bisque;
   width: 100vw;
   height: 100vh;
 }
@@ -920,10 +925,10 @@ section {
   text-align: left;
 }
 #detail > div #detail-hero {
-  padding: 10%;
+  padding: 20%;
   background-size: cover;
   background-position: center;
-  height: 100%;
+  height: 10%;
   width: 85%;
   margin-left: -20%;
 }
